@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/success', (req, res) => {
-  res.send('Hello World Success!');
+  res.send('Hello World Success!\n');
 })
 
 app.listen(PORT, HOST, () => {
